@@ -9,7 +9,8 @@ trace files
 Download it and modify `config.php` according to your needs
 
 ## Screen
-
+![Screen1 xdebug gui](https://github.com/saklak/xdebug-trace-gui/blob/screenshot/screenshots/screen1.JPG)
+![Screen2 xdebug gui](https://github.com/saklak/xdebug-trace-gui/blob/screenshot/screenshots/screen2.JPG)
 
 Tested and works with an 25MB trace file although I recomend 
 using `xdebug_start_trace()` and `xdebug_stop_trace()`
