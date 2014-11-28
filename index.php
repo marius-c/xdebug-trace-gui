@@ -138,9 +138,9 @@ require_once("config.php");
 <!-- /.modal -->
 
 <?php
-
-$file        = new SplFileObject($config['path'] . $config['file'], "r");
-$linePrinter = new LinePrinter($config['exclude_path']);
+$cfg         = new Config($config);
+$file        = new SplFileObject($cfg->path . $cfg->file, "r");
+$linePrinter = new LinePrinter($cfg->exclude_path);
 $fileReader  = new FileReader($file, $linePrinter);
 $header      = new HeaderPrinter();
 
